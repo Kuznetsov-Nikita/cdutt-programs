@@ -1,0 +1,8 @@
+div {
+	box-sizing: border-box;
+	margin: 20px auto;
+	width: 1000px;
+	height: 1000px;
+	background: -moz-linear-gradient(top, maroon 0%, red 4%, red 6%, OrangeRed 12%, orange 25%, yellow 38%, yellow 39%, LawnGreen 51%, lime 55%, lime 56%, DeepSkyBlue 67%, DeepSkyBlue 68%,  blue 87%, indigo 95%);
+	border: 1px solid black;
+}

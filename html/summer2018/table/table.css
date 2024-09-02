@@ -1,0 +1,38 @@
+table {
+	margin: 25px auto 0;
+	border: 1px solid black;
+	border-collapse: collapse;
+	caption-side: bottom;
+}
+
+th, td {
+	border: 1px dotted black;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+tr#tr1 {
+	background-color: #8F6CD7;
+}
+
+col#dec {
+	background-color: #FF7A73;
+	width: 5em;
+	cursor: default;
+}
+
+col#bin {
+	background-color: #6F83D6;
+	width: 8em;
+	cursor: pointer;
+}
+
+col#hex {
+	background-color: #67E46F;
+	width: 4.5em;
+	cursor: wait;
+}
+
+span {
+	font-weight: bold;
+}

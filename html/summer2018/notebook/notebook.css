@@ -1,0 +1,44 @@
+body {
+	background-image: url(wood19.jpg);
+}
+
+div#a {
+	box-sizing: border-box;
+	width: 400px;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image: url(notebookspiral11.png), url(n.png);
+	background-repeat: repeat-y, repeat;
+	background-origin: border-box, content-box;
+	background-position: 0% 4.3%, 0% 0%;
+	box-shadow: 9px 9px 12px black;
+	border-radius: 0 20px 20px 0;
+	border-left: 23px solid transparent;
+	background-clip: border-box, content-box;
+}
+
+div#b {
+	box-sizing: border-box;
+	width: 334px;
+	height: inherit;
+	margin: 0;
+	border-right: 1px solid red;
+}
+
+p {
+	background-image: url(notebooklogotip.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	width: 290px;
+	height: 442px;
+	margin: 0;
+	padding-left: 38px;
+	padding-right: 8px;
+	padding-top: 8px;
+	font-size: 0.8em;
+	line-height: 0.9em;
+	font-style: italic;
+}

@@ -1,0 +1,67 @@
+h1, h2, p {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+h1 {
+	margin-bottom: 1.5em;
+	color: orange;
+	font: bold normal 2em san-serif;
+	text-shadow: 0.05em 0.05em 0.1em black;
+	text-decoration: overline underline;
+	text-transform: uppercase;
+	text-align: center;
+	box-shadow: 0 0 20px rgb(0,0,0);
+	border-radius: 10px;
+	margin: 7px;
+}
+
+h2 {
+	margin: 1.5em 0 1em;
+	color: blue;
+	font-variant: small-caps;
+	text-shadow: 0.04em 0.04em 0.09em blue;
+}
+
+p {
+	margin: 1em 0;
+	clear: both;
+	font-family: "Times New Roman", serif;
+	color: rgb(0,0,128);
+}
+
+img#img1 {
+	float: left;
+	color: red;
+	margin: 0 10px 10px 0;
+	border: 5px groove red;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px black;
+}
+
+img#img2 {
+	float: right;
+	color: red;
+	margin: 10px 0 10px 10px;
+	border: 2px groove red;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px black;
+}
+
+a {
+	float: left;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(fon1.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+}

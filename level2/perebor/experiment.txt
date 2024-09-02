@@ -1,0 +1,6 @@
+queens_a: 14 -  7.60 sec
+	  15 - 51.68 sec
+
+queens_b: 14 -  1.87 sec
+	  15 - 11.81 sec
+	  16 - 80.90 sec

@@ -1,0 +1,15 @@
+div {
+	box-sizing: content-box;
+	border-top: 50px solid white;
+	border-bottom: 50px solid red;
+	width: 300px;
+	background-color: blue;
+	height: 50 px;
+	color: gold;
+	text-align: center;
+	font-size: 2em;
+	outline: 1px solid black;
+	outline-offset: 0;
+}
+
+	
